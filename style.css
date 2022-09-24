@@ -1,16 +1,40 @@
 body{font-family: 'Poppins', sans-serif;}
 h1{font-size: 50px;}
 .green-color{color:green;}
-section{display:flex;
+.flexible-container{display:flex;
 margin-bottom: 150px;
 }
-.half{width:50%}
-.half img{width:100%
+.half{width:111%;
+;
+}
+.half img{width:100%;
 }
 .link-button{text-decoration: none;
-background-color: brown;
+background-color: aqua;
 padding-left: 20px 50px
 border-radius: 5px;
 font-weight:700;
-
+padding: 9px;
 }
+.link-button:hover{
+    color:black;
+    background-color: rebeccapurple;
+    transition: 0.5s;
+}
+
+
+.experience-item{box-shadow: 10px 10px 40px gray;
+
+width:40%;
+margin-right:5%;
+margin-left: 5%;
+padding-left: 20px;
+border-radius: 10px;
+border-left:7px solid brown;
+}
+.experience-item:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: 0.7s;
+}
+.h2{font-size: 50px;}
